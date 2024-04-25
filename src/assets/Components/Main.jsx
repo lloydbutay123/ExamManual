@@ -42,7 +42,7 @@ export const Main = () => {
                   <img src={item.img} alt="img" loading="lazy" />
                 </div>
                 <div id="contentText">
-                  <h3>{item.blockTitle}</h3>
+                  <h2>{item.blockTitle}</h2>
                   <p>{item.content}</p>
                 </div>
               </div>
@@ -58,8 +58,10 @@ export const Main = () => {
               <div className="heading">
                 <h1>{item.sectionTitle}</h1>
               </div>
-              <h3>{item.blockTitle}</h3>
-              <p>{item.content}</p>
+              <div>
+                <h2>{item.blockTitle}</h2>
+                <p>{item.content}</p>
+              </div>
             </div>
           );
         })}
