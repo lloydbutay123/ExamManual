@@ -16,7 +16,7 @@ h3,
 h4,
 h5 {
   line-height: 2;
-  font-family: poppinsBold;
+  font-family: poppinsBold, sans-serif;
 }
 
 .section {
@@ -35,6 +35,20 @@ h5 {
 }
 .content img {
   width: 100%;
+}
+
+.content.contentImg {
+  order: 2;
+}
+
+.content.contentText {
+  order: 1;
+}
+.content .contentImg:nth-child(2) {
+  order: 2;
+}
+.content .contentImg:nth-child(2) ~ .item:not(.two) {
+  order: 2;
 }
 
 #thirdSection {

@@ -1,4 +1,4 @@
-import img2 from "../Images/img-2.jpg";
+import img2 from "../Images/img-2.webp";
 
 const secondSection = [
   {

@@ -4,7 +4,7 @@ import secondSection from "../Helper/SecondSection.jsx";
 import thirdSection from "../Helper/ThirdSection.jsx";
 import forthSection from "../Helper/ForthSection.jsx";
 import fifthSection from "../Helper/FifthSection.jsx";
-import img5 from "../Images/img-5.jpg";
+import img5 from "../Images/img-5.webp";
 
 export const Main = () => {
   return (
@@ -38,10 +38,10 @@ export const Main = () => {
                 <h1>{item.sectionTitle}</h1>
               </div>
               <div className="content">
-                <div>
+                <div id="contentImg">
                   <img src={item.img} alt="img" />
                 </div>
-                <div>
+                <div id="contentText">
                   <h3>{item.blockTitle}</h3>
                   <p>{item.content}</p>
                 </div>

@@ -1,4 +1,4 @@
-import img4 from "../Images/img-4.jpg";
+import img4 from "../Images/img-4.webp";
 
 const forthSection = [
   {
