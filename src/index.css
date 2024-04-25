@@ -82,9 +82,14 @@ footer img,
 
 @media only screen and (max-width: 480px) {
   .section {
-    min-height: auto;
     width: 100%;
     padding: 2rem;
+  }
+
+  #firstSection, 
+  #secondSection,
+  #fifthSection {
+    min-height: 100vh; 
   }
 
   .content {
