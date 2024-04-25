@@ -37,20 +37,6 @@ h5 {
   width: 100%;
 }
 
-.content.contentImg {
-  order: 2;
-}
-
-.content.contentText {
-  order: 1;
-}
-.content .contentImg:nth-child(2) {
-  order: 2;
-}
-.content .contentImg:nth-child(2) ~ .item:not(.two) {
-  order: 2;
-}
-
 #thirdSection {
   display: flex;
   text-align: center;
@@ -86,15 +72,15 @@ footer img {
 
 @media only screen and (max-width: 480px) {
   h1 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   h3 {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .section {
     padding: 2rem;
