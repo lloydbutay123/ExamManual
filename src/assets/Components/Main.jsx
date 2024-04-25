@@ -85,7 +85,7 @@ export const Main = () => {
         })}
       </div>
 
-      <div className="section" id="fifthSection">
+      <div className="section">
         <div className="heading">
           <h1>Section heading</h1>
         </div>
