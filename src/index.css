@@ -19,6 +19,18 @@ h5 {
   font-family: poppinsBold, sans-serif;
 }
 
+h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
 .section {
   padding: 4rem 5rem;
   min-height: auto;
@@ -69,17 +81,6 @@ footer img,
 }
 
 @media only screen and (max-width: 480px) {
-  h1 {
-    font-size: 22px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 14px;
-  }
   .section {
     min-height: auto;
     width: 100%;
