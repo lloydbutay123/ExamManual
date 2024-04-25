@@ -44,8 +44,14 @@ h1 {
 }
 .content {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
+}
+.content #contentImg {
+  order: 2;
+}
+.content #contentText {
+  order: 1;
 }
 
 #thirdSection {
