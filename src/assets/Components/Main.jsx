@@ -8,7 +8,7 @@ import img5 from "../Images/img-5.webp";
 
 export const Main = () => {
   return (
-    <div>
+    <>
       <div className="section" id="firstSection">
         {firstSection.map((item, index) => {
           return (
@@ -18,7 +18,7 @@ export const Main = () => {
               </div>
               <div className="content">
                 <div>
-                  <img src={item.img} alt="img" />
+                  <img src={item.img} alt="img" loading="lazy" />
                 </div>
                 <div>
                   <h3>{item.blockTitle}</h3>
@@ -39,7 +39,7 @@ export const Main = () => {
               </div>
               <div className="content">
                 <div id="contentImg">
-                  <img src={item.img} alt="img" />
+                  <img src={item.img} alt="img" loading="lazy" />
                 </div>
                 <div id="contentText">
                   <h3>{item.blockTitle}</h3>
@@ -73,7 +73,7 @@ export const Main = () => {
                 <h1>{item.sectionTitle}</h1>
               </div>
               <div>
-                <img src={item.img} alt="img" />
+                <img src={item.img} alt="img" loading="lazy" />
               </div>
               <div>
                 <p>{item.content}</p>
@@ -83,7 +83,7 @@ export const Main = () => {
         })}
       </div>
 
-      <div className="section">
+      <div className="section" id="fifthSection">
         <div className="heading">
           <h1>Section heading</h1>
         </div>
@@ -94,7 +94,7 @@ export const Main = () => {
                 <div>
                   <div>
                     <div>
-                      <img src={item.img} alt="img" />
+                      <img src={item.img} alt="img" loading="lazy"/>
                     </div>
                     <div>
                       <p>{item.articleTitle}</p>
@@ -108,8 +108,8 @@ export const Main = () => {
       </div>
 
       <footer>
-        <img src={img5} alt="img footer" />
+        <img src={img5} alt="img footer" loading="lazy" />
       </footer>
-    </div>
+    </>
   );
 };
