@@ -21,7 +21,7 @@ export const Main = () => {
                   <img src={item.img} alt="img" loading="lazy" />
                 </div>
                 <div>
-                  <h3>{item.blockTitle}</h3>
+                  <h2>{item.blockTitle}</h2>
                   <p>{item.content}</p>
                 </div>
               </div>
