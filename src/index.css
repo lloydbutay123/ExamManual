@@ -21,6 +21,8 @@ h5 {
 
 .section {
   padding: 4rem 5rem;
+  min-height: 100vh;
+  width: 100%
 }
 
 .heading {
@@ -32,9 +34,6 @@ h5 {
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 2rem;
-}
-.content img {
-  width: 100%;
 }
 
 #thirdSection {
@@ -62,11 +61,10 @@ h5 {
   gap: 2rem;
   text-align: center;
 }
-#fifthSection img {
-  width: 100%;
-}
 
-footer img {
+footer img,
+#fifthSection img,
+.content img {
   width: 100%;
 }
 
