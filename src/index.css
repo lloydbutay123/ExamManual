@@ -21,7 +21,7 @@ h5 {
 
 .section {
   padding: 4rem 5rem;
-  min-height: 100vh;
+  min-height: auto;
   width: 100%
 }
 
