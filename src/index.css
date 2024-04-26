@@ -44,7 +44,7 @@ h1 {
 }
 .content {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
 .content #contentImg {
